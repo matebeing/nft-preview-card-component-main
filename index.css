@@ -142,5 +142,12 @@ hr {
 }
 
 .creator-name {
+    text-decoration: none;
     color: white;
+    transition: color 0.6s;
+}
+
+
+.creator-name:hover {
+    color: hsl(178, 100%, 50%);
 }
